@@ -4,7 +4,7 @@
   "description": "pruebas unitarias con jest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "jest",
@@ -14,6 +14,8 @@
   "author": "Francisco Lopez <franlopbri@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
     "babel-jest": "^27.0.5",
     "babel-polyfill": "^6.26.0",
     "jest": "^27.0.5"
