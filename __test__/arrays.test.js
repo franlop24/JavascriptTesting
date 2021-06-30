@@ -9,6 +9,9 @@ describe('Comprobar si existe algun elemento', ()=> {
     });
     test('comprobar el tamaño de un arreglo', () => {
         expect(arrayFruits()).toHaveLength(6);
+    });
+    test('comprobando en array de colores', () => {
+        expect(arrayColors()).toContain('azul');
     })
 });
 
