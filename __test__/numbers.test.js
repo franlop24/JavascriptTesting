@@ -15,5 +15,5 @@ describe('Comparación de números', () => {
     });
     test('Números flotantes', () => {
         expect(numbers(0.2, 0.2)).toBeCloseTo(0.4);
-    })
+    });
 });
